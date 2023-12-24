@@ -1,0 +1,133 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=League+Spartan:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+     margin:0%;
+     padding: 0%;
+}
+
+body{
+    background-image: url(images/bg-pattern-top-desktop.svg);
+
+
+}
+.container{
+    width:80%;
+    margin:0% auto;    
+}
+.top
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding:5px 60px;
+}
+h1{
+    font-size:40px;
+    margin-bottom:16px; 
+    font-family: 'League Spartan', sans-serif;
+    color:  hsl(300, 43%, 22%);
+}
+.p1{
+    font-size:15px;
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(303, 10%, 53%);;
+}
+
+
+.star{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: hsl(300, 24%, 96%);
+    padding: 12px 25px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    align-items:center;
+    border-radius: 10px;
+    color:  hsl(300, 43%, 22%);;
+   
+}
+.img1{
+    margin-right:15px;
+}
+.rating2{
+    margin-left:16px ;
+}
+.rating3{
+    margin-left: 32px;
+}
+.bottom{
+    background-image: url('images/bg-pattern-bottom-desktop.svg');
+   display: flex;
+   margin-bottom: 60px;
+   margin: 90px;
+
+}
+
+
+.card{
+    display: flex;
+    padding-right:100px;
+    
+}
+.card1{
+    width: 300px;
+    height: 150px;
+    background-color:  hsl(300, 43%, 22%);
+    margin-right:16px;
+    padding:20px 15px;
+    border-radius: 10px;
+    font-family: 'League Spartan', sans-serif;
+
+}
+.card2{
+    width: 300px;
+    height: 150px;
+    background-color: hsl(300, 43%, 22%);
+    margin-right:16px;
+    padding:20px;
+    border-radius: 10px;
+    margin-top:15px;
+    font-family: 'League Spartan', sans-serif;
+
+
+}
+.card3{
+    width: 300px;
+    height: 150px;
+    background-color: hsl(300, 43%, 22%);
+    margin-right:16px;
+    padding:20px 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-family: 'League Spartan', sans-serif;
+
+
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile img{
+    width: 50px ;
+    height: auto;
+    border-radius: 100px;
+    margin-right: 15px;
+}
+.profile h3{
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 3px;
+}
+
+.profile h5{
+    font-size: 15px;
+    color:hsl(300, 50%, 41%);
+}
+
+.para p{
+    font-size:18px;
+    color: aliceblue;
+    margin-top: 10px;
+    font-weight: 500px;
+}
